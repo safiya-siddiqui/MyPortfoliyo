@@ -1,0 +1,177 @@
+.portfoliyo{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 8rem;
+
+    
+  
+}
+body{
+    overflow-x: hidden;
+}
+.portfoliyo span:nth-of-type(1){
+    color: rgb(2, 2, 2);
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+
+   position: relative;
+   top:120px;
+   
+}
+.portfoliyo span:nth-of-type(2){
+    color: rgb(219, 163, 57);
+    font-size: 2rem;
+
+   font-family: 'Nunito', sans-serif;
+   position: relative;
+   bottom: 10px;
+}
+
+
+.port{
+    width: 100vw;
+    height: 90vh;
+  position: relative;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.portfoliyocard{
+    width: 300px;
+    height: 400px;
+   bottom: 70px;
+    background-color: rgb(27, 27, 26);
+    position: relative;
+   box-shadow: 0px 0px 21px 4px rgb(241, 216, 168);
+}
+
+.portfoliyocard img {
+    width: 300px;
+    height: 200px;
+   
+}
+.portfoliyocard span:nth-of-type(1) {
+    
+    color: rgb(241, 230, 230);
+    font-size: 1.3rem;
+    position: relative;
+   left: 70px;
+   top: 20px;
+   font-family: 'Nunito', sans-serif;
+   text-align: center;
+
+}
+
+.portfoliyocard span:nth-of-type(2) {
+    
+    color: rgb(245, 235, 235);
+    font-size: 1.3rem;
+    left: 40px;
+    top: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+.b-icons a{
+   color: rgb(233, 185, 42);
+    width: 100px;
+    height: 50px;
+   
+    
+    
+    bottom: 10px;
+  font-size: 3rem;
+  position: relative;
+ 
+ top:88px
+}
+.b-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+ left: 30px;
+    
+}
+
+@media screen and (max-width: 1024px){
+
+
+    .portfoliyo{
+       
+        flex-direction: column;
+       margin-top:10px;
+       padding: 60px;
+    }
+    .portfoliyocard img {
+        width: 300px;
+        height: 250px;
+       
+    }
+.port{
+   
+  margin-top: 130px;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 60px;
+}
+.portfoliyocard{
+    flex-direction: column;
+    height: 500px;
+  top: 50px;
+position: relative;
+right: 10px;
+
+ transform: scale(0.6);
+ gap: 2rem;
+}
+
+.portfoliyocard >*{
+    position: static;
+}
+.b-icons a{
+
+   font-size: 2rem;
+   position: relative;
+  
+  
+ }
+ .b-icons{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+  left: 140px;
+     bottom: 70px;
+ }
+
+ .b-icons a:hover{
+    color: aliceblue;
+ }
+
+ .portfoliyo span:nth-of-type(2){
+   
+    font-size: 2rem;
+   
+   position: relative;
+  
+   left: 10px;
+}
+.portfoliyocard span:nth-of-type(1) {
+    
+    position: relative;
+   left: 120px;
+ 
+  bottom: 270;
+}
+ 
+}
+
+
+
+
+

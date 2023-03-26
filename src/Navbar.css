@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+   
+    width: 100vw;
+    position: relative;
+    top: 0;
+    bottom: 0px;
+}
+
+h2{
+    color: orange;
+    position: relative;
+    left: 30px;
+}
+#navbarSupportedContent{
+   
+    position: relative;
+  left: 200px;
+   
+}
+ .nav-item .nav-link {
+    font-size: 1.4rem;
+  text-decoration: none;
+  list-style-type: none;
+    color: rgb(251, 165, 6);
+    padding: 16px;
+    margin: 30px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+.navbar-toggler{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+.n-list>ul>li .nav-link:hover{
+    cursor: pointer;
+    color: rgb(234, 232, 229);
+   
+}
+.nav-link-active{
+
+    font-size: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+    color: orange;
+    margin: 30px;
+    position: relative;
+    top: 40px;
+    
+}
+.button{
+    font-size: 1rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background: linear-gradient(90deg, rgb(209, 208, 212) 0%, rgb(215, 160, 32) 35%, rgb(245, 213, 52) 100%);
+    border: none;
+    width: 150px;height: 40px;
+    padding: 10px;
+    position: relative;
+    right: 250px;
+    text-decoration: none;
+    box-shadow: 0px 10px 14px 2px rgb(145, 108, 22);
+}
+.button .nav-link{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    font-style: italic;
+}
+.button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+    background: linear-gradient(90deg, rgb(210, 223, 163) 0%, rgb(243, 216, 147) 35%, rgb(245, 232, 168) 100%);
+    border: 1px solid orange;
+}
+
+.nav-link{
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1024px){
+
+    #navbarSupportedContent{
+   
+        position: relative;
+   left: -10px;
+       
+    }
+    .nav-item .nav-link {
+       
+        padding:10px;
+        margin: 20px;
+       
+    }
+    .nav-link-active{
+
+        margin: 30px;
+        position: relative;
+        top: 10px;
+        
+        
+    }
+
+    .button{
+        
+        position: relative;
+     left: 20px;
+        text-decoration: none;
+        box-shadow: 0px 10px 14px 2px rgb(145, 108, 22);
+    }
+}
+
+

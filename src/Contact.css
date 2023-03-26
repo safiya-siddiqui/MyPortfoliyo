@@ -1,0 +1,136 @@
+.contact-form{
+    width: 100vw;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: space-around;
+  
+}
+.contact-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    left: -50px;
+}
+
+.contact-right{
+   z-index: 1;
+    flex: 1;
+    position: relative;
+    top: 300px;
+    right: 200px;
+}
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.contact-name>:nth-child(1){
+    font-size: 3rem;
+    color: rgb(5, 5, 5);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.contact-name>:nth-child(2){
+    font-size: 3rem;
+    color: rgb(220, 153, 30);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.contact-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.contact-right .user{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    padding: 0.3rem;
+    border: 2px solid orange;
+    border-radius: 7px;
+    font-size: 16px;
+
+}
+textarea{
+    height: 4rem!important;
+}
+
+.submit-button{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.buttons{
+    font-size: 1rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background: linear-gradient(90deg, rgb(209, 208, 212) 0%, rgb(215, 160, 32) 35%, rgb(245, 213, 52) 100%);
+    border: none;
+    width: 150px;height: 40px;
+    padding: 10px;
+    position: relative;
+  
+    box-shadow: 0px 10px 14px 2px rgb(145, 108, 22);
+}
+.buttons:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    color: orange;
+    background: linear-gradient(90deg, rgb(210, 223, 163) 0%, rgb(243, 216, 147) 35%, rgb(245, 232, 168) 100%);
+    border: 1px solid orange;
+}
+
+@media screen and (max-width: 1024px){
+
+
+    .contact-form{
+     flex-direction: column;
+       
+        margin-top: 100px;
+    }
+
+    .contact-left{
+       
+        position: relative;
+   left: -260px;
+        flex-direction: column;
+        padding: 60px;
+    }
+    
+    .contact-right{
+       z-index: 1;
+        flex: 1;
+        position: relative;
+        top: 200px;
+        right: 10px;
+        padding: 60px;
+    }
+   
+    .buttons{
+        font-size: 1rem;
+        border-radius: 20px;
+        color: aliceblue;
+        background: linear-gradient(90deg, rgb(209, 208, 212) 0%, rgb(215, 160, 32) 35%, rgb(245, 213, 52) 100%);
+        border: none;
+        width: 150px;height: 40px;
+        padding: 10px;
+        position: relative;
+        right: 90px;
+        box-shadow: 0px 10px 14px 2px rgb(145, 108, 22);
+    }
+    .buttons:hover{
+        background-color: aliceblue;
+        cursor: pointer;
+        color: orange;
+        background: linear-gradient(90deg, rgb(210, 223, 163) 0%, rgb(243, 216, 147) 35%, rgb(245, 232, 168) 100%);
+        border: 1px solid orange;
+    }
+    
+}

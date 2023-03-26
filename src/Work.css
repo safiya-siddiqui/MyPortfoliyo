@@ -1,0 +1,153 @@
+.works{
+    padding: 80px;
+    height: 90vh;
+   
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   
+}
+.workleft-services{
+    display: flex;
+    position: relative;
+    flex: 1;
+    padding: 70px;
+    flex-direction: column;
+    right: 240px;
+}
+
+
+.workservices-name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    top: 50px;
+    left: 300px;
+}
+.workservices-name>:nth-child(1){
+    font-size: 3rem;
+    color: rgb(5, 4, 4);
+   
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.workservices-name>:nth-child(2){
+    font-size: 3rem;
+    color: rgb(220, 153, 30);
+   
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.workservices-name>:nth-child(3){
+    font-size: 1.3rem;
+    color: rgb(100, 96, 96);
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.workservices-button{
+    position: relative;
+    height: 3rem;
+    font-size: 1rem;
+    top: 100px;
+    left: 292px;
+}
+
+.right-work span{
+    color: rgb(239, 144, 35);
+    font-style: italic;
+    font-size: 1.3rem;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.right-work {
+    width: 300px;
+    height: 300px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    position: relative;
+   
+    top: 200px;right: 200px;
+    box-shadow: 0px 0px 9px 3px rgb(247, 196, 101);
+}
+
+.coding-ninja{
+
+    width: 100px;
+    height: 100px;
+ border: 1px solid orange;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 10px 9px 3px rgb(247, 196, 101);
+   
+}
+.coding-ninja img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+    display: flex;align-items: center;
+}
+.Oasis-Infobyte{
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid orange;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0px 12px 13px 3px rgb(247, 196, 101);
+}
+.Oasis-Infobyte img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+   
+}
+
+@media screen and (max-width: 1024px){
+
+    .works{
+       
+      flex-direction: column;
+      margin-top: 400px;
+    }
+
+
+    .workleft-services{
+       
+        position: relative;
+    right: 340px;
+    top: 180px;
+    padding: 10;
+        flex-direction: column;
+    }
+    .right-work {
+        
+        position: relative;
+     padding:10px ;
+     margin: 50px;
+       flex-direction: column;
+       left: 7px;
+
+       transform: scale(0.8);
+
+    
+    }
+    .workservices-name>:nth-child(1){
+        font-size: 2.5rem;
+        color: rgb(5, 4, 4);
+        font-style: italic;
+       
+    }
+    .workservices-name>:nth-child(2){
+        font-size: 2rem;
+        color: rgb(220, 153, 30);
+        font-style: italic;
+        
+    }
+}

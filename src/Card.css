@@ -1,0 +1,62 @@
+.card img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 70px;
+    border-radius: 50%;
+    top: 20px;
+    box-shadow: 0px 2px 14px 4px plum;
+
+}
+.card{
+    width: 17rem;
+    height: 15rem;
+    background-color: rgb(244, 162, 11);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 300px;
+    gap: 1rem;
+    padding: 30px;
+    text-align: center;
+    color: grey;
+    border: 5px solid orange;
+    border-radius: 7px;
+   margin: 40px;
+    box-shadow: 0px 0px 29px 4px rgb(233, 198, 134);
+}
+
+.btn-card{
+    width: 120px;
+    height: 3rem;
+    border-radius: 20px;
+    background-color: rgb(246, 243, 238);
+    color: rgb(18, 55, 88);
+    font-size: 1rem;
+    position: relative;
+    left: 60px;
+}
+.card span:nth-of-type(1){
+    font-size: 2rem;
+    position: relative;
+    top: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card span:nth-of-type(2){
+    font-size: 1rem;
+    position: relative;
+    
+    font-family: 'Nunito', sans-serif;
+}
+.card:hover{
+    transform: scale(1.25);
+    box-shadow: 0 10 10px rgba(9, 8, 9, 0.5);
+    z-index: 5;
+}
+@media screen and (max-width:1024px){
+    .card{
+        width: auto;
+    }
+}

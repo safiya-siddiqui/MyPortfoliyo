@@ -1,0 +1,139 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 540px;
+    margin-top: 300px;
+   
+    position: relative;
+    left: -220px;
+    
+border-radius: 5px;
+transform: scale(0.8);
+gap: 2rem;
+border-style: none;
+}
+
+.qualicard{
+    width: 340px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+
+border-style: none;
+ 
+    border-radius: 5px;
+    box-shadow: 0px 3px 12px 13px rgb(244, 242, 238);
+   
+}
+.card-imge{
+    width:340px;
+  
+    
+}
+.card-imge img{
+    width: 340px;
+    height: 300px;
+    position: relative;
+   
+   
+
+    
+}
+.course{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    padding: 18px;
+    position: relative;
+    left: 35px;
+font-style: italic;
+}
+
+.college{
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+    padding: 8px;
+    position: relative;
+    left: 35px;
+    bottom: 15px;
+  
+    font-family: 'Nunito', sans-serif;
+}
+.address{
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(11, 11, 11);
+    padding: 8px;
+    position: relative;
+    left: 68px;
+    bottom: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+.grades{
+   
+    font-size: 1rem;
+    font-weight: 200px;
+    color: rgb(4, 4, 4);
+    padding: 2px;
+    position: relative;
+    left: 8px;
+    bottom: 30px; 
+    font-family: 'Nunito', sans-serif;
+}
+.session{
+    width: 200px;
+    height: 30px;
+    font-size: 1.2rem;
+    background-color: rgb(241, 231, 231);
+    color: rgb(28, 17, 1);
+    position: relative;
+    left: 50px;
+    text-align: center;
+    padding: 10px;
+    bottom: 10px;display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 6px;
+}
+.container:hover{
+    opacity: 0.8;
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+@media screen and (max-width:1024px){
+ 
+  .container{
+    flex-direction: column;
+    transform: scale(0.6);
+    margin-top: 100px;
+    position: relative;
+    right: 10px;
+    bottom: 200px;
+   
+  
+  }
+  .qualicard{
+
+    position: relative;
+left: 380px;
+bottom: 200px;
+  
+    
+    
+    
+  }
+
+  .container:hover{
+    opacity: 0.8;
+    transform: scale(0.6);
+    cursor: pointer;
+    transition: 0.8s;
+}
+}
